@@ -1,0 +1,56 @@
+# ====== Gradle ======
+.gradle/
+build/
+*/build/
+
+# ====== Local configuration ======
+local.properties
+*.iml
+.idea/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/libraries
+
+# ====== Log files ======
+*.log
+
+# ====== OS generated files ======
+.DS_Store
+Thumbs.db
+
+# ====== Kotlin/Java compiled files ======
+*.class
+*.jar
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+
+# ====== Android specific ======
+captures/
+output.json
+.externalNativeBuild
+.cxx/
+
+# ====== Signing keys ======
+*.jks
+*.keystore
+
+# ====== Misc ======
+*.orig
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ====== JetBrains IDE files (Android Studio) ======
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ====== MacOS files ======
+*.DS_Store
